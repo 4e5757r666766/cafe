@@ -60,7 +60,7 @@ h2 {
   width: 150px;
   height: 100px;
 }
-.clasic_section a {
+.clasic_section .button {
   text-decoration: none;
   background-color: #944445;
   color: #f4d2a9;
@@ -95,7 +95,7 @@ h2 {
   width: 150px;
   height: 100px;
 }
-.summer_section a {
+.summer_section .button {
   text-decoration: none;
   background-color: #b3ff00;
   color: #ff00c3;
@@ -145,7 +145,7 @@ h2 {
   width: 200px;
   height: 110px;
 }
-.ocin_section a {
+.ocin_section .button {
   text-decoration: none;
   background-color: #855000;
   color: #fffddf;
@@ -180,7 +180,7 @@ h2 {
   width: 100px;
   height: 100px;
 }
-.winter_section a {
+.winter_section .button {
   text-decoration: none;
   background-color: #ff003c;
   color: #fffddf;
@@ -215,7 +215,7 @@ h2 {
   width: 100px;
   height: 100px;
 }
-.spring_section a{
+.spring_section .button{
     text-decoration: none;
   background-color: #7cfb96;
   color: #ff006a;

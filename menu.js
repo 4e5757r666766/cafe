@@ -14,3 +14,11 @@ button.forEach((item) => {
     totalPrice.innerHTML = "до слати: " + summa;
   });
 });
+ 
+
+let oplata = document.querySelector(".oplata")
+oplata.addEventListener(click, function () {
+    summa = 0
+    totalPrice.innerHTML = "до слати: " + summa;
+    alert("Смачного!")
+})
