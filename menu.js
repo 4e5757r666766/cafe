@@ -1,11 +1,16 @@
-let button = document.querySelector(".button")
-let price = botton.replaceAll("грн", "")
-price = number(botton)
-let totalPrice_field = document.querySelector(".totalPrice")
-buttons(){
-    price = 0
-    price =+ price
-    totalPrice_field = price
-    console.log(totalPrice_field)
-}
-addEventListener(click , buttons)
+let button = document.querySelectorAll(".button");
+let totalPrice = document.querySelector(".totalPrice");
+let summa = 0
+
+// Проходжусь по списку з кнопками і до кожної яка потрапляє в item додаю eventListener
+button.forEach((item) => {
+    item.addEventListener("click", function () {
+        let bth_text = item.innerHTML
+        let price = bth_text.split("г")[0]
+        price = Number(price);
+
+        summa += price
+
+        totalPrice.innerHTML = "до слати: " + summa;
+    })
+})
