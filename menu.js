@@ -1,6 +1,6 @@
 let button = document.querySelector(".button")
-let price = botton.replaceAll("грн", "")
-price = number(botton)
+let price = button.replaceAll("грн", "")
+price = number(button)
 let totalPrice_field = document.querySelector(".totalPrice")
 buttons(){
     price = 0
