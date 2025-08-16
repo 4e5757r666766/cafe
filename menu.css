@@ -272,11 +272,13 @@ button {
   transform: scale(1.2);
   background-color: #cd4648;
   border: 1px solid #cd4648;
+  cursor: pointer;
 }
 .summer_section .button:hover{
   transform: scale(1.2);
   background-color: #d9ff81;
   border:1px solid #d9ff81;
+  cursor: pointer;
 }
 .ocin_section .button:hover{
   transform: scale(1.2);
@@ -287,9 +289,11 @@ button {
   transform: scale(1.2);
   background-color: #f34970;
   border:1px solid #f34970;
+  cursor: pointer;
 }
 .spring_section .button:hover{
   transform:scale(1.2);
   background-color: #d0f9d7;
   border:1px solid #d0f9d7;
+  cursor: pointer;
 }
