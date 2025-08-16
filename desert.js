@@ -20,8 +20,7 @@ oplata.addEventListener("click", function () {
   alert("смачного!");
 });
 
-let price_after_salea = 0
-let price_after_sale = 0
+
 
 let sale = document.querySelector(".sale")
 sale.addEventListener("click", function () {
@@ -33,6 +32,8 @@ sale = Math.floor(Math.random() * (90 - 5 + 1)) + 5;
     
    
 })
+    
+
 
   
 
