@@ -66,6 +66,8 @@ h2 {
   color: #f4d2a9;
   border-radius: 50px;
   padding: 10px 15px 10px 15px;
+  border: 1px solid #944445;
+  transition: 0.5s;
 }
 .summer {
   display: flex;
@@ -101,6 +103,8 @@ h2 {
   color: #ff00c3;
   border-radius: 50px;
   padding: 10px 15px 10px 15px;
+  border: 1px solid #b3ff00;
+  transition: 0.5s;
 }
 
 .ocin {
@@ -151,6 +155,8 @@ h2 {
   color: #fffddf;
   border-radius: 50px;
   padding: 10px 15px 10px 15px;
+  border: 1px solid #855000;
+  transition: 0.5s;
 }
 .winter {
   display: flex;
@@ -186,6 +192,8 @@ h2 {
   color: #fffddf;
   border-radius: 50px;
   padding: 10px 15px 10px 15px;
+  border: 1px solid #ff003c;
+  transition: 0.5s;
 }
 .spring {
   display: flex;
@@ -209,53 +217,79 @@ h2 {
   font-size: 25px;
   border-radius: 20px;
   height: 250px;
-  transition:0.5s;
+  transition: 0.5s;
 }
-.spring_section img{
+.spring_section img {
   width: 100px;
   height: 100px;
 }
-.spring_section .button{
-    text-decoration: none;
+.spring_section .button {
+  text-decoration: none;
   background-color: #7cfb96;
   color: #ff006a;
   border-radius: 50px;
   padding: 10px 15px 10px 15px;
+  border: 1px solid #7cfb96;
+transition: 0.5s;
 }
-.k{
+.k {
   display: flex;
   justify-content: center;
 }
-.clasic_section article:hover{
+.clasic_section article:hover {
   transform: scale(1.3);
- border:5px solid #944445;
- background-color: #fef4e8;
-
+  border: 5px solid #944445;
+  background-color: #fef4e8;
 }
-.summer_section article:hover{
+.summer_section article:hover {
   transform: scale(1.3);
-  border:5px solid #b3ff00;
+  border: 5px solid #b3ff00;
   background-color: #bbf9fd;
 }
-.ocin_section article:hover{
+.ocin_section article:hover {
   transform: scale(1.3);
   border: 5px solid #fcdec3;
   background-color: #fad2ae;
 }
-.winter_section article:hover{
-transform: scale(1.3);
-background-color:hsl(198, 100%, 78%) ;
-border:5px solid hsl(194, 93%, 83%)
+.winter_section article:hover {
+  transform: scale(1.3);
+  background-color: hsl(198, 100%, 78%);
+  border: 5px solid hsl(194, 93%, 83%);
 }
-.spring_section article:hover{
-transform: scale(1.3);
-background-color: rgb(247, 228, 231);
-border:5px solid hsl(130, 91%, 86%);
+.spring_section article:hover {
+  transform: scale(1.3);
+  background-color: rgb(247, 228, 231);
+  border: 5px solid hsl(130, 91%, 86%);
 }
-button{
+button {
   background-color: #944445;
-  color:#f4eccb;
+  color: #f4eccb;
   border: 1px solid #944445;
   border-radius: 50px;
   padding: 20px;
+}
+.clasic_section .button:hover {
+  transform: scale(1.2);
+  background-color: #cd4648;
+  border: 1px solid #cd4648;
+}
+.summer_section .button:hover{
+  transform: scale(1.2);
+  background-color: #d9ff81;
+  border:1px solid #d9ff81;
+}
+.ocin_section .button:hover{
+  transform: scale(1.2);
+  background-color: #c58a32;
+  border:1px solid #c58a32;
+}
+.winter_section .button:hover{
+  transform: scale(1.2);
+  background-color: #f34970;
+  border:1px solid #f34970;
+}
+.spring_section .button:hover{
+  transform:scale(1.2);
+  background-color: #d0f9d7;
+  border:1px solid #d0f9d7;
 }
