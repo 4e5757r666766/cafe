@@ -1,6 +1,6 @@
-let button = document.querySelectorAll(".desert")
-let totalPrice = document.querySelector(".totalPrice")
-let summa = 0
+let button = document.querySelectorAll(".desert");
+let totalPrice = document.querySelector(".totalPrice");
+let summa = 0;
 button.forEach((item) => {
   item.addEventListener("click", function () {
     let bth_text = item.innerHTML;
@@ -20,21 +20,10 @@ oplata.addEventListener("click", function () {
   alert("смачного!");
 });
 
-
-
-let sale = document.querySelector(".sale")
+let sale = document.querySelector(".sale");
 sale.addEventListener("click", function () {
- 
-sale = Math.floor(Math.random() * (90 - 5 + 1)) + 5;
-    
-    alert(`${sale}%`)
+  sale = Math.floor(Math.random() * (90 - 5 + 1)) + 5;
 
-    
-   
-})
-    
+  alert(`${sale}%`);
 
-
-  
-
-
+});

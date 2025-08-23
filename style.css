@@ -61,3 +61,11 @@ footer img {
   height: 300px;
   transition: opacity 1s ease;
 }
+.h{
+  display:flex;
+  justify-content: center;
+}
+.h img{
+  width: 150px;
+  height: 100px;
+}
