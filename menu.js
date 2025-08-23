@@ -25,3 +25,7 @@ oplata.addEventListener("click", function () {
   alert("смачного!");
     
 })
+
+
+
+
