@@ -60,22 +60,4 @@ classic_btn.addEventListener("click", () => {
   });
 });
 
-const articles = document.querySelectorAll("article");
-articles.forEach((article) => {
-  article.addEventListener("click", () => {
-    const name = article.querySelector("p").textContent;
-    const price = article.querySelector("button").textContent;
-    const img = article.querySelector("img").src;
 
-    const item = { name, price, img };
-
-    let selected =
-      JSON.parse(localStorage.getItem("selectedItems")) || [];
-
-    selected.push(item);
-
-    localStorage.setItem("selectedItems", JSON.stringify(selected));
-
-    window.location.href = "cart.html";
-  });
-});
