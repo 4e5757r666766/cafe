@@ -19,16 +19,19 @@ h2 {
   display: flex;
   justify-content: space-around;
 }
-.nav button {
+.nav button,
+.nav a {
+  font-size: 35px;
+  font-family: "Amatic SC", sans-serif;
   text-decoration: none;
   background-color: #944445;
   color: #f4d2a9;
   border-radius: 50px;
   padding: 10px 15px 10px 15px;
   transition: 0.5s;
-
 }
-.nav button:hover {
+.nav button:hover,
+.nav a:hover {
   background-color: #fff1e0;
   color: #944445;
   box-shadow: 15px 15px 15px #944445;
@@ -42,11 +45,11 @@ h2 {
   color: #f4d2a9;
   border-radius: 50px;
 }
-.clasic_section {
+.classic_section {
   display: flex;
   justify-content: space-around;
 }
-.clasic_section article {
+.classic_section article {
   width: 200px;
   height: 250px;
   text-align: center;
@@ -58,11 +61,11 @@ h2 {
   border-radius: 20px;
   transition: 0.5s;
 }
-.clasic_section img {
+.classic_section img {
   width: 150px;
   height: 100px;
 }
-.clasic_section .button {
+.classic_section .button {
   text-decoration: none;
   background-color: #944445;
   color: #f4d2a9;
@@ -232,13 +235,13 @@ h2 {
   border-radius: 50px;
   padding: 10px 15px 10px 15px;
   border: 1px solid #7cfb96;
-transition: 0.5s;
+  transition: 0.5s;
 }
 .k {
   display: flex;
   justify-content: center;
 }
-.clasic_section article:hover {
+.classic_section article:hover {
   transform: scale(1.3);
   border: 5px solid #944445;
   background-color: #fef4e8;
@@ -270,32 +273,32 @@ button {
   border-radius: 50px;
   padding: 20px;
 }
-.clasic_section .button:hover {
+.classic_section .button:hover {
   transform: scale(1.2);
   background-color: #cd4648;
   border: 1px solid #cd4648;
   cursor: pointer;
 }
-.summer_section .button:hover{
+.summer_section .button:hover {
   transform: scale(1.2);
   background-color: #d9ff81;
-  border:1px solid #d9ff81;
+  border: 1px solid #d9ff81;
   cursor: pointer;
 }
-.ocin_section .button:hover{
+.ocin_section .button:hover {
   transform: scale(1.2);
   background-color: #c58a32;
-  border:1px solid #c58a32;
+  border: 1px solid #c58a32;
 }
-.winter_section .button:hover{
+.winter_section .button:hover {
   transform: scale(1.2);
   background-color: #f34970;
-  border:1px solid #f34970;
+  border: 1px solid #f34970;
   cursor: pointer;
 }
-.spring_section .button:hover{
-  transform:scale(1.2);
+.spring_section .button:hover {
+  transform: scale(1.2);
   background-color: #d0f9d7;
-  border:1px solid #d0f9d7;
+  border: 1px solid #d0f9d7;
   cursor: pointer;
 }
